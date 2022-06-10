@@ -4,7 +4,8 @@
 }
 
 header{
-    background-color: #3B3B3B;
+    position: absolute;
+    width: 100%;
 }
 
 .container{
@@ -66,7 +67,7 @@ header nav li a:hover {
 .first_box{
     background-image: url('../images/back.jpg');
     background-size: cover;
-    height: 100vh;
+    height: 80vh;
     padding-top: 170px;
 
 }
@@ -99,6 +100,67 @@ header nav li a:hover {
     font-style: normal;
     font-weight: 500;
     color: #FFFFFF;
+}
+
+.first2_box{
+    background-image: url("../images/mgroup.svg");  background-size: cover; background-color: #4C6071;
+    padding-top: 60px;
+    padding-bottom: 95px;
+}
+.container h3{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 130%;
+    color: #FFFFFF;
+    margin-bottom: 85px;
+    margin-left: 100px;
+}
+
+.flex_container .item{
+    position: relative;
+    width: 253px;
+
+}
+.flex_container h5{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.flex_container p{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.item_img{
+    position: absolute;
+    top: 78px;
+    left: 96px;
+    margin-bottom: 20px;
+}
+
+.fc_img{
+    display: block;
+
+}
+
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1110px;
+    margin: auto;
+
 }
 
 .second_box{
@@ -178,7 +240,7 @@ header nav li a:hover {
 }
 
 .third_box{
-    background-image: url("../images/mask.svg");  background-size: cover; background-color:#4C7169; padding-top: 60px; padding-bottom: 60px;
+    background-image: url("../images/mgroup.svg");  background-size: cover; background-color: #4C6071; padding-top: 60px; padding-bottom: 60px;
 }
 
 .table_div{
