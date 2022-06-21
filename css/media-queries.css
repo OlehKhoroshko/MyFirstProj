@@ -1,0 +1,119 @@
+
+@media only screen and (max-width: 375px) {
+
+
+    header {
+        position: absolute;
+        width: 100%;
+    }
+
+
+    .d-flex {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header div ul {
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        list-style: none;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+    }
+
+    header div ul li:last-of-type {
+        padding-left: 10px;
+    }
+
+    .Logo {
+        display: inline-block;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .first_box div h1 {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+
+    .first_box div {
+        padding: 0 5px;
+    }
+
+    .first_box div article {
+        margin-bottom: 40px;
+        margin-top: 60px;
+        font-size: 14px;
+        max-width: 240px
+
+    }
+
+    .owl-nav {
+        top: -50px;
+        right: 160px;
+    }
+
+
+    header nav li {
+        margin: 0 10px 20px 10px;
+    }
+
+    header nav a {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 100%;
+        color: #FFFFFF;
+        transition: 0.3s;
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .second_box {
+        padding: 0 5px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: relative;
+    }
+
+    .first_box div article {
+        padding: 5px 5px;
+    }
+
+    .form_div5 img {
+        display: flex;
+        justify-content: center;
+        max-width: 240px;
+        position: absolute;
+        top: 35px;
+        left: 35px;
+    }
+
+    .second_box button {
+        margin-bottom: 10px;
+    }
+
+    .table_div1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .table_div1 article {
+        margin-top: 5px;
+    }
+
+}

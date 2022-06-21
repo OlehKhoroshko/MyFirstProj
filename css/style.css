@@ -158,9 +158,48 @@ header nav li a:hover {
 .flex_container{
     display: flex;
     justify-content: space-between;
-    max-width: 1110px;
+    max-width: 1200px;
     margin: auto;
+}
+.item{
+    display: inline-block;
+    max-width: 240px;
+}
 
+.owl-item{
+    text-align: center;
+}
+
+.owl-stage{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.owl-nav .owl-prev:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f104";
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-right: 30px;
+
+}
+.owl-nav .owl-next:before{
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    content: "\f105";
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.owl-nav{
+    display: flex;
+    justify-content: right;
+    position: absolute;
+    width: 100%;
+    top: -110px;
+    right: 170px;
 }
 
 .second_box{
